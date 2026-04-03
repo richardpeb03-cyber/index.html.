@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabulousLogistics – Your Full-Service Travel Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0a0e14; color: white; font-family: sans-serif; }
+        .gold-text { color: #C9A84C; }
+        .bg-gold { background-color: #C9A84C; }
+    </style>
+</head>
+<body>
+    <nav class="p-6 flex justify-between items-center max-w-7xl mx-auto">
+        <div class="text-2xl font-bold tracking-tighter uppercase">
+            <span class="italic gold-text">Fabulous</span> LOGISTICS
+        </div>
+    </nav>
+
+    <section class="px-6 py-20 text-center relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#C9A84C] rounded-full blur-[120px] opacity-20 pointer-events-none"></div>
+        <h2 class="gold-text text-xs uppercase tracking-[0.3em] mb-4">Nigeria's Premier Travel Agency</h2>
+        <h1 class="text-6xl md:text-8xl font-black italic mb-6 leading-tight uppercase">FABULOUS <br> <span class="gold-text">Logistics</span></h1>
+        <p class="text-xl italic text-gray-400 mb-10">"Every trip is a special emotion"</p>
+        <a href="https://wa.me/2348036414646" class="bg-gold text-black font-bold px-10 py-4 rounded-full inline-block">BOOK A TRIP</a>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <h3 class="gold-text uppercase tracking-widest text-sm mb-2 text-center">What we offer</h3>
+        <h2 class="text-4xl font-bold mb-12 text-center uppercase">OUR SERVICES</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="p-8 border border-gray-800 bg-[#11161d] rounded-2xl">
+                <h4 class="text-xl font-bold mb-3 gold-text">FLIGHT RESERVATIONS</h4>
+                <p class="text-gray-400 text-sm">Domestic & international flights.</p>
+            </div>
+            <div class="p-8 border border-gray-800 bg-[#11161d] rounded-2xl">
+                <h4 class="text-xl font-bold mb-3 gold-text">HOTEL BOOKINGS</h4>
+                <p class="text-gray-400 text-sm">Luxury resorts and budget stays.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-24 px-6 text-center border-t border-gray-900">
+        <h2 class="text-5xl font-bold italic mb-12 uppercase">LET'S <span class="gold-text">travel</span></h2>
+        <div class="flex flex-col gap-4 max-w-md mx-auto">
+            <a href="https://wa.me/2348036414646" class="bg-[#25D366] py-4 rounded-xl font-bold flex items-center justify-center">WhatsApp Support 1</a>
+            <a href="https://wa.me/2348107215325" class="bg-[#25D366] py-4 rounded-xl font-bold flex items-center justify-center">WhatsApp Support 2</a>
+        </div>
+        <p class="mt-8 text-[10px] text-gray-700 uppercase">© 2026 Fabulous Logistics and Services Limited</p>
+    </footer>
+</body>
+</html>
